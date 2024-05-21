@@ -103,8 +103,8 @@
     <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build Collection" FirstItem="New York" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="BuildCollection`1_2" Result="[Cities(&quot;US&quot;)]">
       <uasc:BuildCollection.NextItems>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-          <InArgument x:TypeArguments="x:String">New York</InArgument>
-          <InArgument x:TypeArguments="x:String">Cin Francisco</InArgument>
+          <InArgument x:TypeArguments="x:String">Chicago</InArgument>
+          <InArgument x:TypeArguments="x:String">San Diego</InArgument>
         </scg:List>
       </uasc:BuildCollection.NextItems>
     </uasc:BuildCollection>
@@ -114,6 +114,7 @@
           <InArgument x:TypeArguments="x:String">Bristol</InArgument>
           <InArgument x:TypeArguments="x:String">Edinburgh</InArgument>
           <InArgument x:TypeArguments="x:String" xml:space="preserve">  Manchester</InArgument>
+          <InArgument x:TypeArguments="x:String">Cambridge</InArgument>
         </scg:List>
       </uasc:BuildCollection.NextItems>
     </uasc:BuildCollection>
